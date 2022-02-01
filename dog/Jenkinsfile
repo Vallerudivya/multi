@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('contineous download') {
             steps {
-               git 'https://github.com/koddas/war-web-project.git'
+               git 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
             }
         }
          stage('contineous build') {
